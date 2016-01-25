@@ -1,2 +1,2 @@
-# docker-pm2
-PM2 docker image
+# docker-node-pm2
+Node-PM2 docker image
