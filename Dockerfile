@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:5
 
 MAINTAINER Mobapi "contact@mobapi.com"
 
