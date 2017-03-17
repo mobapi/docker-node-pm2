@@ -1,8 +1,8 @@
-FROM node:5
+FROM node:6
 
 MAINTAINER Mobapi "contact@mobapi.com"
 
-RUN npm install -g pm2@1.1.3
+RUN npm install -g pm2@2.4.2
 
 RUN mkdir /app
 VOLUME ["/app"]
