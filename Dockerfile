@@ -8,7 +8,7 @@ RUN npm install -g pm2@2.5.0
 RUN mkdir /app
 VOLUME ["/app"]
 
-CMD ["pm2-docker", "start", "--web", "9615"]
+CMD ["pm2-docker", "--web", "9615"]
 # CMD ["pm2 start --no-daemon"]
 
 EXPOSE 80
